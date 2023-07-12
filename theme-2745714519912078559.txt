@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr" dir="<$BlogLanguageDirection$>">
+
+<head>
+  <title><$BlogPageTitle$></title>
+
+  <$BlogMetaData$>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     KidpaddleetcieGlin
+Date:     25 06 2023
+----------------------------------------------- */
+#navbar-iframe-container{
+  display:flex;
+  background-color:#15202B;
+  height:35px;
+    }
+    
+    #navbar-iframe-container .b-link{
+     color:white ; 
+    }
+    
+    body {
+  background-color: #00062B;
+  background-image: none;
+  background-repeat: no-repeat;
+  color: #FFF;
+  font-size: 12px;
+  font-family: Arial Black;
+      position: relative;
+    margin: auto auto;
+    text-align: center;
+}
+    @media (orientation: landscape) {
+  .Mobile_Infos {
+    display: none;
+  }
+}
+@media (orientation: portrait) {
+  aside {
+    display: none !important;
+  }
+}
+@media (orientation: portrait) {
+  .Mobile_Infos {
+    border-color: #2634FF;
+    background-color: #15202B;
+    height: 450px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 0.1fr;
+    grid-auto-flow: row dense;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    justify-items: stretch;
+    align-content: stretch;
+  }
+  .Mobile_Infos .Mobile_gauche {
+    text-align: center;
+    grid-area: 1/1/2/2;
+    margin:5px;
+
+  }
+    .Mobile_Infos .Mobile_gauche a{
+    text-align: center;
+    text-decoration:none;
+      font-weight:bold;
+      
+  }
+  
+    .Mobile_Infos .Mobile_gauche .Titre_de_Blog {
+    color: #0094FF;
+    text-align: center;
+      
+  }
+  .Mobile_Infos .Mobile_gauche .Titre_de_Blog a {
+    color: #0094FF;
+    text-align: center;
+   
+  }
+  .Mobile_Infos .Mobile_gauche .Profil img {
+    width: 70%;
+  }
+  .Mobile_Infos .Mobile_droite {
+    grid-area: 1/2/2/3;
+    text-align: center;
+  }
+  .Mobile_Infos .Mobile_droite .Description {
+    padding: 5px;
+  }
+  .Mobile_Infos .Mobile_liens {
+    grid-area: 2/1/3/3;
+  }
+  .Mobile_Infos .Mobile_liens .LesLiens {
+    order: 3;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+  }
+  .Mobile_Infos .Mobile_liens .LesLiens a {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+    margin:10px;
+    width:93px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+  }
+  .Mobile_Infos .Mobile_liens .LesLiens a:hover{background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;}
+   .Mobile_Infos .Mobile_liens .LesLiens a:active{	position:relative;
+	top:1px;}
+}
+    
+    header{
+      background: #FFF;
+    color: #0A0A0A;
+    border-color: #15202B;
+          overflow: hidden;
+    display: block;
+      margin: 5px auto;
+      position: relative;
+    margin-bottom: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+              @media (orientation: landscape) {
+width: 64%;
+    float: left;
+}
+  @media (orientation: portrait) {
+  width: 90%;
+    margin:20px auto;
+  }
+          font-size: 16px;
+    zoom: 1;
+          font-family: Lucida Sans Unicode;
+    }
+    header p b{
+          display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    overflow: hidden;
+    margin-bottom: -5px;
+      padding-right:5px;
+      padding-left:5px;
+    }
+    header .pointe{
+     border-right-color: #FFF;
+      top: auto;
+    bottom: 10px;    
+      border-color: transparent #fff transparent transparent;
+          display: block;
+    position: absolute;
+    width: 0;
+    line-height: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+      left: -16px;
+      
+    }
+
+h4 {
+  text-align: center;
+  color: white;
+}
+
+main {
+  text-align: left;
+  clear: both;
+      @media (orientation: landscape) {
+  width: 982px;
+}
+@media (orientation: portrait) {
+  width: 100%;}
+  margin: 5px 0;
+
+      margin: auto;
+    position: relative;
+  margin-top:20px;
+}
+
+aside {
+  width: 171px;
+  position: relative;
+  color: #0094FF;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-color: #2634FF;
+    border: 1px solid;
+  background-color: #15202B;
+  padding-bottom: 40px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 169px;
+  margin: 0;
+  padding: 0;
+  display: block;
+min-height: 100rem;
+  height:100%;
+}
+
+.barre_gauche {
+  float: left;
+  clear: left;
+  margin: 0 8px 0 0;
+  text-align: center;
+}
+.barre_gauche .Titre_de_Blog a {
+  color: #0094FF;
+}
+.barre_gauche .Profil img {
+  width: 100%;
+}
+.barre_gauche .Description {
+  padding: 5px;
+}
+.barre_gauche .LesLiens a {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+  width:55%;
+}
+}
+    
+    .barre_gauche .LesLiens a:hover {
+  	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+    } .barre_gauche .LesLiens a:active {	position:relative;
+	top:1px;}
+    
+    ul li{
+     text-align:left; 
+    }
+
+.barre_droite {
+  float: right;
+  clear: right;
+}
+.barre_droite .Infos {
+  padding: 5px;
+  text-align: center;
+}
+.barre_droite .Tags {
+  text-align: center;
+  font-size: 90%;
+  padding: 0.3em;
+}
+.barre_droite .Tags a {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.barre_droite .Tags a:nth-child(2n+1) {
+  background-color: rgba(255, 255, 255, 0.0901960784);
+  display: block;
+}
+.barre_droite .Sources img {
+  width: 100%;
+}
+.barre_droite .Sources img:hover {
+  filter: opacity(0.5);
+}
+
+.Blog_centre {
+  margin: 5px;
+  zoom: 1;
+  margin: 0;
+    padding: 0;
+      position: relative;
+    margin: auto;
+}
+
+.Blog_centre article h1 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  background-color: #131928;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-color: #000;
+  border-style: none;
+  font-size: 16px;
+  font-family: Allerta Stencil;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+article{
+        @media (orientation: landscape) {
+width: 614px;
+    float: left;
+}
+  @media (orientation: portrait) {
+  width: 90%;
+    margin:20px auto;
+  }
+    background-color: white;
+  color:black;
+    border: 1px solid #0094FF;
+  padding:5px;
+    }
+    article p{
+        padding-left:5px;
+      padding-right:5px;
+      font-size:1.1em;
+    }
+    
+    .post-title{
+          background-color: #131928;
+      color: #A5D3FF;
+    text-decoration: none;
+      margin:0;
+      text-align:center;
+          font-size: 16px;
+    }
+    
+    .blogger-labels{
+          background-color: white;
+      color:black;
+    }
+    
+    .blogger-labels a{
+      color:blue;
+    }
+    .post-footer{
+        background-color: #131928;
+      text-align:right;
+    padding:5px;
+    margin:0;}
+    .post-footer em{
+     display:flex;
+      justify-content: space-between;
+    }
+    .post-footer a{
+         color:white;
+    }
+.Blog_centre article h1 a {
+  color: #A5D3FF;
+  text-decoration: none;
+}
+.Blog_centre article div {
+  margin: 0 0 5px;
+}
+
+ul li a{
+  color:white;}
+    
+.twitter-tweet-rendered{
+   width:100%;
+  text-align:center;
+   margin: auto auto !important;
+    }
+    
+  </style>
+
+
+</head>
+<body>
+  <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-cd2f50f2-bc02-481e-af8c-41ea8da343b7"></div>
+<section class="Mobile_Infos">
+    <div class="Mobile_gauche">
+   <a href="https://kidpaddleetcieglin.blogspot.com/">
+    <div class="Titre_de_Blog"> KidpaddleetcieGlin</div>
+    <div class="Profil"><img src="https://pbs.twimg.com/profile_images/1299478830839730176/cU6TUyuE_400x400.png" alt="KidpaddleetcieGlin"></div>
+     </a>
+</div>
+<div class="Mobile_droite">
+    <div class="Description">
+    <h4>Description</h4>
+    <p>Le Blog d'une personne aillant découvert internet en 2007 qui partage une partie de sa vie mais surtout ses réflexions, ses découvertes et ses cours!</p>
+    <p>Bon, je ne vous garantit pas que 100% du contenu est fiable mais aux moins je l'approuve! :)</p>
+    </div>
+</div>
+<div class="Mobile_liens">
+    <div class="LesLiens">
+    <a href="https://www.youtube.com/@Tutos2Glin/videos" target="_blank">Les Tutos2Glin</a>
+    <a href="https://www.youtube.com/@YTPs2Glin/videos" target="_blank">YTPs2Glin</a>
+    <a href="https://twitter.com/Kidpaddleetcie" target="_blank">Twitter</a>
+    <a href="https://www.deviantart.com/kidpaddleetcie" target="_blank">DeviantArt</a>
+     <a href="https://www.behance.net/kidpaddleetcie" target="_blank">Behance</a>
+     <a href="https://www.pinterest.fr/Kidpaddleetcie/" target="_blank">Pinterest</a>
+     <a href="https://www.sudomemo.net/user/95C3EE50E113B7C8@DSi" target="_blank">Sudomemo</a>
+    <a href="https://github.com/Kidpaddleetcie" target="_blank">Github</a>
+    <a href="https://soundcloud.com/kidpaddleetcie-glin" target="_blank">Soundcloud</a>
+    <a href="https://sketchfab.com/KidpaddleetcieGlin/models" target="_blank">Sketchfab</a>
+    <a href="https://www.senscritique.com/Glin_Kidpaddleetcie" target="_blank">SensCritique</a>
+    <a href="https://www.artstation.com/glinkidpaddleetcie" target="_blank">ArtStation</a>
+    </div>
+  </div>
+</section>
+  
+  
+  
+        <main>
+<aside class="barre_gauche">
+<div class="Titre_de_Blog"> <a href="https://kidpaddleetcieglin.blogspot.com/">KidpaddleetcieGlin</a></div>
+<div class="Profil"><img src="https://pbs.twimg.com/profile_images/1299478830839730176/cU6TUyuE_400x400.png" alt="KidpaddleetcieGlin"></div>
+<div class="Description">
+<h4>Description</h4>
+<p>Le Blog d'une personne aillant découvert internet en 2007 qui partage une partie de sa vie mais surtout ses réflexions, ses découvertes et ses cours!</p>
+<p>Bon, je ne vous garantit pas que 100% du contenu est fiable mais aux moins je l'approuve! :)</p>
+</div>
+<div class="LesLiens">
+  <h4> <$I18NLinks$> </h4>
+    <a href="https://www.youtube.com/@Tutos2Glin/videos" target="_blank">Les Tutos2Glin</a>
+    <a href="https://www.youtube.com/@YTPs2Glin/videos" target="_blank">YTPs2Glin</a>
+    <a href="https://twitter.com/Kidpaddleetcie" target="_blank">Twitter</a>
+    <a href="https://www.deviantart.com/kidpaddleetcie" target="_blank">DeviantArt</a>
+     <a href="https://www.behance.net/kidpaddleetcie" target="_blank">Behance</a>
+     <a href="https://www.pinterest.fr/Kidpaddleetcie/" target="_blank">Pinterest</a>
+     <a href="https://www.sudomemo.net/user/95C3EE50E113B7C8@DSi" target="_blank">Sudomemo</a>
+    <a href="https://github.com/Kidpaddleetcie" target="_blank">Github</a>
+    <a href="https://soundcloud.com/kidpaddleetcie-glin" target="_blank">Soundcloud</a>
+    <a href="https://sketchfab.com/KidpaddleetcieGlin/models" target="_blank">Sketchfab</a>
+    <a href="https://www.senscritique.com/Glin_Kidpaddleetcie" target="_blank">SensCritique</a>
+    <a href="https://www.artstation.com/glinkidpaddleetcie" target="_blank">ArtStation</a>
+</div>
+  <div class="Precedents">
+            <h4 class="sidebar-title"><$I18NPreviousPosts$></h4>
+    <ul id="recently">
+    <BloggerPreviousItems>
+        <li><a href="<$BlogItemPermalinkURL$>"><$BlogPreviousItemTitle$></a></li>
+     </BloggerPreviousItems>
+  </ul>
+  </div>
+  <div class="Archives">
+  <h4><$I18NArchives$><h4>
+ <ul class="archive-list">
+     <BloggerArchives>
+    <li><a href="<$BlogArchiveURL$>"><$BlogArchiveName$></a></li>
+  </BloggerArchives>
+      <ArchivePage><li><a href="<$BlogURL$>"><$I18NCurrentPosts$></a></li></ArchivePage>
+  </div>
+</aside>
+<aside class="barre_droite">
+<div class="Infos">
+    <h4>Infos</h4>
+    <p>Création du Skyblog : 23/08/2011 à 19:09</p>
+    <p>Création du Blogger : 23/06/2023 à 18:31</p>
+  <b:section id='optinbox' class='customoptinbox' preferred='true' maxwidgets="5" showaddelement="yes" growth="horizontal">
+    <b:widget id='Label700' title='' type='Label'>
+
+</b:widget>
+</b:section>
+</div>
+<div class="Tags">
+    <h4>Sujets</h4>
+<view.search.label>
+</div>
+<div class="Sources">
+    <h4>Les Sources</h4>
+<b:section id='optinbox' class='customoptinbox' maxwidgets="5" showaddelement="yes" growth="horizontal">
+</b:section>
+
+</div>
+</aside>
+<section class="Blog_centre">
+  <header>
+  <div class="pointe"></div>
+  <p><b>“</b>Le Blog Skyrock est en cours de pompage, vous pouvez le retrouver ici : <a href="https://kidpaddleetcieglin.skyrock.com/" target="_blank">https://kidpaddleetcieglin.skyrock.com/</a><b>”</b></p>
+    
+    </header>
+  <Blogger>
+
+
+
+         <!-- Begin .post -->
+
+  <div class="post"><a name="<$BlogItemNumber$>"></a>
+<article>
+     <BlogItemTitle>
+ <BlogItemUrl><a href="<$BlogItemUrl$>" title="external link" class="title-link"></BlogItemUrl>
+    <h3 class="post-title">
+ <$BlogItemTitle$>
+    </h3>
+ <BlogItemUrl></a></BlogItemUrl>
+    </BlogItemTitle>
+
+         <div class="post-body">
+
+          <p>
+      <$BlogItemBody$>
+    </p>
+
+        </div>
+
+        <p class="post-footer">
+
+      <em><a href="<$BlogItemPermalinkUrl$>" title="permanent link"><$BlogItemDateTime$></a>
+      <BlogItemCommentsEnabled>
+         <a class="comment-link" href="<$BlogItemCommentCreate$>"<$BlogItemCommentFormOnclick$>><span><$I18NNumComments$></span></a>
+      </BlogItemCommentsEnabled></em>
+ <$BlogItemControl$>
+    </p>
+        </article>
+    </div>
+
+  <!-- End .post -->
+
+        <!-- Begin #comments -->
+ <ItemPage>
+
+  <div id="comments">
+
+<BlogItemCommentsEnabled><a name="comments"></a>
+
+        <h4><$I18NNumComments$>:</h4>
+
+        <dl id="comments-block">
+          <$CommentPager$>
+      <BlogItemComments>
+
+      <dt class="comment-data" id="<$BlogCommentAnchorName$>"><a name="<$BlogCommentAnchorName$>"></a>
+
+        <$I18NAtCommentTimeWithPermalink$>,
+
+        <$I18NCommentAuthorSaid$>
+
+      </dt>
+
+      <dd class="comment-body">
+
+        <p><$BlogCommentBody$></p>
+  <$BlogCommentDeleteIcon$>
+
+      </dd>
+
+  </BlogItemComments>
+    <$CommentPager$>
+
+    </dl>
+<p class="comment-timestamp">
+    <$BlogItemCreate$>
+    </p>
+    <p id="postfeeds"><$BlogItemFeedLinks$></p>
+    </BlogItemCommentsEnabled>    
+
+
+<p style="padding-left:20px;">
+<a href="<$BlogURL$>">&lt;&lt; <$I18NHome$></a>
+    </p>
+    </div>
+
+</ItemPage>
+
+  <!-- End #comments -->
+
+</Blogger>
+</section>
+    </main>
+
+</body>
+
+</html>
